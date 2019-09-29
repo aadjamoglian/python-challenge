@@ -3,7 +3,7 @@ import csv
 import statistics
 os.getcwd()
 
-filepath = os.path.join("Desktop", "Python Challenges", "Pybank", "budget_data_copy.csv")
+filepath = os.path.join("Desktop", "python-challenge", "Pybank", "budget_data_copy.csv")
 
 with open(filepath, 'r', newline="") as csvfile:
     csvcontent = csv.reader(csvfile, delimiter=",")

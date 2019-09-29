@@ -2,7 +2,7 @@ import os
 import csv
 import operator
 
-filepath = os.path.join("Desktop", "Python Challenges", "PyPoll", "election_data.csv")
+filepath = os.path.join("Desktop", "python-challenge", "PyPoll", "election_data.csv")
 
 
 vote_dict = {}
